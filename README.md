@@ -2,17 +2,19 @@
 
 You need to create an user with Access from the internet allowed in your FritzBox panel, after that:
 
-Download and make the script executable
-```
-chmod +x /path/to/fritzBoxShell.sh
-```
+* Download the script and edit line 2 and 3 with your username and your password
 
-Then add this to your .bashrc
-```
-alias fritzbox="/path/to/fritzBoxShell.sh"
-```
+* Make the script executable
+  ```
+  chmod +x /path/to/fritzBoxShell.sh
+  ```
 
-After that you can restart your shell and try
-```
-fritzbox help
-```
+* Add this to your .bashrc
+  ```
+  alias fritzbox="/path/to/fritzBoxShell.sh"
+  ```
+
+* Restart your shell and then you can use FritzBoxShell
+  ```
+  fritzbox help
+  ```
